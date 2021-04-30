@@ -6,25 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
         <module name="room-service" />
         <module name="guest-service" />
         <module name="server-config" />
         <module name="reservation-services" />
+        <module name="room-reservation-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="EurekaServer" target="11" />
       <module name="Guest-Reservation" target="11" />
       <module name="guest-service" target="11" />
       <module name="reservation-services" target="11" />
+      <module name="room-reservation-service" target="11" />
       <module name="room-service" target="11" />
       <module name="server-config" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
       <module name="Guest-Reservation" options="-parameters" />
       <module name="guest-service" options="-parameters" />
       <module name="reservation-services" options="-parameters" />
+      <module name="room-reservation-service" options="-parameters" />
       <module name="room-service" options="-parameters" />
       <module name="server-config" options="-parameters" />
     </option>
