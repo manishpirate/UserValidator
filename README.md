@@ -10,7 +10,7 @@ Due to some time issue, I was not able to add comments to the code, which is one
  - guestservice
  - roomservice
  - reservationservice
- - eurekaclient
+ - Eureka Server
  - feign client using roomreservationservice project.
 
 Internal H2 database is used for the saving the data. All the data and table schema were provided in the excercise files by Frank. 
