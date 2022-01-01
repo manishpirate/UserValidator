@@ -1,0 +1,19 @@
+{
+  "name": "Employee",
+  "namespace": "com.example.cloudkafka",
+  "type": "record",
+  "fields": [
+    {
+      "name": "employeeName",
+      "type": "string"
+    },
+    {
+      "name": "employeeAge",
+      "type": "int"
+    },
+    {
+      "name": "employeeSalary",
+      "type": "long"
+    }
+  ]
+}
